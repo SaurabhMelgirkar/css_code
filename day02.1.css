@@ -1,0 +1,26 @@
+/* psudo class selecter */
+h1{
+    background-color: red;
+}
+h1:hover{
+    background-color: rgb(203, 64, 64);
+    border: 30px solid;
+    color: white;
+    font-size: small; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+    
+}
+#container{
+    visibility:hidden;
+    font-size: 500px
+    
+
+}
+
+button:hover~#container{
+    visibility:visible;
+    /* display: block; */
+    /* background-color: yellow; */
+}
