@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+
+}
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid ;
+    box-shadow: 0px,0px,10px gainsboro;
+
+    /* border: 10px solid; */
+    /* border-radius: 50%; */
+    /* background-image: repeating-radial-gradient(black 1%,white 5%,yellow 12%); */
+    /* background-image: repeating-linear-gradient(red 1% ,orange 5%); */
+    /* background-image: conic-gradient(red,yellow,green,blue,red); */
+    /* background-image:radial-gradient(red,green,yellow); */
+    /* background-image: linear-gradient(to top right, red,yellow,pink); */
+     /* background-color: greenyellow;  */
+    /* background-image: url(./Nitro_Wallpaper_02_3840x2400.jpg); */
+    /* background-size: contain;  */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* in content priorty goes to image and in cover the priority goes to the  parent block */
+}

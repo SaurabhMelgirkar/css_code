@@ -1,0 +1,41 @@
+/* div{ */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    /* position: absolute;  */
+    /* position: relative; */
+    /* abstulate moves with content which is not possible with sticky and fixed */
+    /* left: 100px; */
+     /* top: 0px;  */
+/* } */
+/* abdtute will take refreence from  view port  (nearest position parent element if no parent element then it take refrence from view port) */
+/* relative will take refrence from current parent  position */
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 350px;
+    width: 750px;
+background-color: yellow;
+position: relative;
+}
+main{
+    width: 450px;
+    height: 200px;
+    background-color: red;
+    /* position: relative; */
+    margin: 50px;
+}
+div{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    background-color: orange;
+    top: 100px;
+}
+/* if parent relative child absultute create problem  */
+/* if paprent is relative or abs it will take refreence as relative not abs */

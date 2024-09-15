@@ -1,0 +1,37 @@
+/* 
+main{
+    width:400px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+     flex-wrap: wrap; 
+}
+
+
+
+div{
+    border: 2px solid white;
+    background: red;
+    width: 200px;
+    height: 40px;
+    /* background-color: antiquewhite; */
+    /* display: flex; */
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+aside{
+    background-color: gray;
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

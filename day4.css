@@ -1,0 +1,65 @@
+/* psudo element selecter */
+#id3::first-letter{
+    font-size: 50px;
+    color: red;
+    background: #000;
+}
+p::first-line{
+    color: yellowgreen;
+}
+#id2::before{
+    content: "hi my name is saurabh 😒";
+}
+#id4::after{
+    content: " hi guys  👌 ";
+}
+#l1::marker{
+    content: "🍎";
+}
+#l2::marker{
+    content: "🥭";
+}
+#l3::marker{
+    content: "🟠";
+}
+#l4::marker{
+    content: "🐉fruit:";
+}
+
+/* attribute selecter */
+
+[href]{
+    color: green;
+}
+[target ="_self"]{
+ background: yellow;   
+}
+/* 
+[title]{
+    background: black;
+}
+     */
+/* 
+[title^=fruit-sw]{
+    background: red ;
+}
+[title$=w]{
+    background: black;
+}
+     */
+[title|=fruit-sweet]{
+    background: orange;
+}
+[title|=sweet]{
+    background: rgb(117, 95, 54);
+    /* seperated by hyphen | */
+}
+[title~=sweet]{ 
+    background: yellow;
+    /* seperated by space ~ */
+}
+[title*=u]{
+    background:blueviolet;
+}
+
+

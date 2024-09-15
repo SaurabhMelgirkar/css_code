@@ -1,0 +1,27 @@
+
+/* h3{ 
+    color: bisque;
+}
+    */
+.class1{
+    color: aquamarine;
+    background-color:black;
+    /* height: 250px; */
+    /* width: 500px; */
+}
+h1{
+    background-color: rebeccapurple;
+
+}
+/* grouping selecter */
+h1,h2,h3{
+    height: 50px;
+}
+/* universal selecter */
+*{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}

@@ -1,0 +1,53 @@
+/* 
+a:active{
+    color: brown;
+    background-color: yellowgreen;
+}
+     */
+input:checked{
+    color: aqua;
+    background-color: antiquewhite;
+    height: 20px;
+    width: 50px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+#id3:disabled{
+background-color: rgb(4, 39, 4);
+border: 2px solid rgb(198, 160, 160);
+}
+#id4:empty:enabled{
+    border: 2px solid rebeccapurple;
+}
+
+div:first-child{
+    background-color: red;
+}
+div:last-child{
+    background: yellow;
+}
+
+div:first-of-type{
+    color: yellow;
+}
+div:last-of-type{
+    color: aqua;
+}
+div:nth-of-type(2){
+    color: blueviolet;
+    background: palegoldenrod;
+}
+td:nth-child(even){
+    background:yellow ;
+}
+td:nth-of-type(odd){
+    background: yellowgreen;
+}
+input:read-only{
+    border: 2px solid red;
+}
+input:required{
+    border: 2px solid yellow;
+}
+#a1:visited{
+    color: aquamarine;
+}

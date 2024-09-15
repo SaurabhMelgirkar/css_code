@@ -1,0 +1,27 @@
+/* transform */
+
+
+body{
+    height: 100vh;
+    display: flex;
+     align-items:center ;
+     justify-content: center;
+}
+div:hover{
+    transform: translate(300px,-300px);
+    transition-duration: 1s;
+}
+/*  */
+/* div{ */
+    /* height: 300px; */
+    /* width: 300px; */
+    /* background-color: red; */
+/* } */
+/* div:hover{ */
+    /*  */
+    /* transform: scale(0.50); */
+    /* transform: skew(36deg); */
+    /* transform: translate(100px,-100px); */
+    /* background-color: yellow; */
+    /* transition-duration: 1s; */
+/* } */

@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section{
+    border: 1px solid;
+    background-color: gray;
+}
+article{
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+button{
+    width: 30px;
+    height: 30px;
+    justify-content: space-evenly;
+    
+}
+input{
+    height: 30px;
+    width: 90%;
+}
+.sign{
+    background-color: black;
+    color: white;
+}
+#id1{
+    background-color: red;
+    color: white;
+}
