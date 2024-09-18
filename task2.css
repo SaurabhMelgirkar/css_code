@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  height: 100vh;
+  /* justify-content: left; */
+  justify-content: space-between;
+  align-items: center;
+  
+}
+main{
+    z-index: 10;
+}
+
+.div1 {
+  height: 50px;
+  width: 100px;
+  border-radius: 100px 100px 0 0;
+  /* border: 1px solid; */
+  background-color: red;
+  animation-name: div1;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div2 {
+  height: 50px;
+  width: 100px;
+  border-radius: 0 0 100px 100px;
+  /* border: 1px solid; */
+  background-color: red;
+  animation-name: div2;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes div1 {
+  from {
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+@keyframes div2 {
+  from {
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
+p{
+    font-size: 25px;
+    position: absolute;
+    top: 44%;
+    right: 100px;
+}
+
+.fruit1{
+    animation-name: fruit1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+@keyframes fruit1{
+    from{}
+    to{transform: translate(-700px);}
+}
+
+
+.fruit2{
+    animation-name: fruit2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+@keyframes fruit2{
+    from{}
+    to{transform: translate(-700px);}
+}
+
+.fruit3{
+    animation-name: fruit3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+@keyframes fruit3{
+    from{}
+    to{transform: translate(-700px);}
+}
+
+.fruit4{
+    animation-name: fruit4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+@keyframes fruit4{
+    from{}
+    to{transform: translate(-700px);}
+}
