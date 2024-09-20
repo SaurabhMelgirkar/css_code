@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 30% 60% 30% 60%;
+    animation-name: fluidball;
+    animation-duration:3s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fluidball{
+    25%{
+            transform: rotate(45deg);
+            border-radius: 60% 30% 60% 30%;
+
+        }
+    50%{
+        transform: rotate(90deg);
+        border-radius: 30% 60% 30% 60%;
+    }
+    75%{
+        transform: rotate(135deg);
+        border-radius: 60% 30% 60% 30%;
+    }
+    100%{
+        transform: rotate(180deg);
+        border-radius: 30% 60% 30% 60%;
+    }
+    }
+
+    

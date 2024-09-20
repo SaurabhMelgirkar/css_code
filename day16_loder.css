@@ -1,0 +1,47 @@
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orangered;
+    animation-name: loder;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.div1{
+    animation-name: loder;
+    animation-delay: 0.1s;
+}
+.div2{
+    animation-name: loder;
+    animation-delay: 0.2s;
+}
+.div3{
+    animation-name: loder;
+    animation-delay: 0.3s;
+}
+.div4{
+    animation-name: loder;
+    animation-delay: 0.4s;
+}
+.div5{
+    animation-name: loder;
+    animation-delay: 0.5s;
+}
+.div6{
+    animation-name: loder;
+    animation-delay: 0.6s;
+}
+@keyframes loder{
+    from{}
+    to{
+        transform: translate(0px,-20px);
+    }
+}
